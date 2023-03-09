@@ -18,4 +18,4 @@ jobs:
 
     - name: Deploy to GoDaddy hosting
       run: |
-        ssh -o "StrictHostKeyChecking no" -o "UserKnownHostsFile /dev/null" -o "IdentitiesOnly=yes" -o "PreferredAuthentications publickey" -o "PubkeyAcceptedKeyTypes=+ecdsa-sha2-nistp256" -i /home/pw12tha58e1o/.ssh pw12tha58e1o@68.178.145.130 "cd /home/pw12tha58e1o/public_html/mubbarikali.com && git pull"
+        ssh -o "StrictHostKeyChecking no" -o "UserKnownHostsFile /dev/null" -o "IdentitiesOnly=yes" -o "PreferredAuthentications publickey" -o "PubkeyAcceptedKeyTypes=+ecdsa-sha2-nistp256" -i /home/pw12tha58e1o/.ssh/id_ecdsa pw12tha58e1o@68.178.145.130 "cd /home/pw12tha58e1o/public_html/mubbarikali.com && git pull"
