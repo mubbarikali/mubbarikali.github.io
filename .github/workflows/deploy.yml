@@ -18,5 +18,4 @@ jobs:
           ftp-server: ${{ secrets.FTP_SERVER }}
           ftp-username: ${{ secrets.FTP_USERNAME }}
           ftp-password: ${{ secrets.FTP_PASSWORD }}
-          local-dir: "./"
-          remote-dir: "/home/pw12tha58e1o/public_html/mubbarikali.com"
+          local-dir: "./mubbarikali.com"
