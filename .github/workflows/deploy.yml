@@ -1,0 +1,21 @@
+name: Deploy to GoDaddy hosting
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v2
+
+    - name: Install SSH client
+      run: sudo apt-get install -y ssh
+
+    - name: Deploy to GoDaddy hosting
+      run: |
+        ssh pw12tha58e1o@mubbarikali.com "cd /home/pw12tha58e1o/public_html/mubbarikali.com && git pull"
