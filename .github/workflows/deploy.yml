@@ -1,4 +1,4 @@
-name: Deploy to GoDaddy hosting
+name: Deploy to FTP
 
 on:
   push:
@@ -13,9 +13,9 @@ jobs:
     - name: Checkout code
       uses: actions/checkout@v2
 
-    - name: Install SSH client
-      run: sudo apt-get install -y ssh
+    - name: Install FTP client
+      run: sudo apt-get install -y lftp
 
-    - name: Deploy to GoDaddy hosting
+    - name: Deploy code
       run: |
-        ssh -o "StrictHostKeyChecking no" -o "UserKnownHostsFile /dev/null" -o "IdentitiesOnly=yes" -o "PreferredAuthentications publickey" -o "PubkeyAcceptedKeyTypes=+ecdsa-sha2-nistp256" -i /home/pw12tha58e1o/ssh/id_ecdsa pw12tha58e1o@68.178.145.130 "cd /home/pw12tha58e1o/public_html/mubbarikali.com && git pull"
+        lftp -c "open -u ${{ secrets.FTP_USERNAME }},${{ secrets.FTP_PASSWORD }} ${{ secrets.FTP_SERVER }} && set ssl:verify-certificate no && mirror -R ./ /home/pw12tha58e1o/public_html/mubbarikali.com"
