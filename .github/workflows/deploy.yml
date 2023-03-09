@@ -1,21 +1,21 @@
-name: Deploy to FTP
-
+name: Publish Website to CPanel
 on:
   push:
     branches:
       - main
-
 jobs:
-  deploy:
+  FTP-Deploy-Action:
+    name: FTP-Deploy-Action
     runs-on: ubuntu-latest
-
     steps:
-    - name: Checkout code
-      uses: actions/checkout@v2
-
-    - name: Install FTP client
-      run: sudo apt-get install -y lftp
-
-    - name: Deploy code
-      run: |
-        lftp -c "open -u ${{ secrets.FTP_USERNAME }},${{ secrets.FTP_PASSWORD }} ${{ secrets.FTP_SERVER }} && set ssl:verify-certificate no && mirror -R ./ /home/pw12tha58e1o/public_html/mubbarikali.com"
+      - name: Checkout code
+        uses: actions/checkout@v2
+        with:
+          fetch-depth: 2
+      - name: Deploy via FTP
+        uses: SamKirkland/FTP-Deploy-Action@v3.1.1
+        with:
+          ftp-server: ${{ secrets.FTP_SERVER }}
+          ftp-username: ${{ secrets.FTP_USERNAME }}
+          ftp-password: ${{ secrets.FTP_PASSWORD }}
+          remote-dir: "/home/pw12tha58e1o/public_html/mubbarikali.com"
