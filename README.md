@@ -1,11 +1,19 @@
+<h1 align="center">Hi 👋, I'm Mubbarik Ali</h1>
 <h3 align="center">A pro Software Engineer.</h3>
+
 <img align="right" alt="coding_image" width="400" src="https://upload.wikimedia.org/wikipedia/commons/c/cc/Digital_rain_animation_medium_letters_shine.gif">
 - 📫 How to reach me **https://www.linkedin.com/in/mubbarikali/**
 
+- 👯 I’m looking to collaborate on **JavaScript projects.**
+
+- 💬 Ask me about **MERN Stack**
+
+- 📫 How to reach me **https://www.linkedin.com/in/mubbarikali/**
+
+- 📄 Know about my experiences [https://docs.google.com/document/d/1_YzVmJkti7UDC4R_2lcGWzgEGxwH5EqReeSnDuqZ5Qw/edit?usp=sharing](https://docs.google.com/document/d/1_YzVmJkti7UDC4R_2lcGWzgEGxwH5EqReeSnDuqZ5Qw/edit?usp=sharing)
+
 <h3 align="left">Connect with me:</h3>
 <p align="left">
-<a href="https://twitter.com/mubbarikali" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="mubbarikali" height="30" width="40" /></a>
-<a href="https://linkedin.com/in/mubbarikali" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="mubbarikali" height="30" width="40" /></a>
 </p>
 
 <h3 align="left">Languages and Tools:</h3>
