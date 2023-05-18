@@ -1,5 +1,5 @@
 <h3 align="center">A pro Software Engineer.</h3>
-<img align="right" alt="coding_image" width="400" src="https://media.tenor.com/IvyuPtEfzhoAAAAC/matrix.gif">
+<img align="right" alt="coding_image" width="400" src="![image](https://github.com/mubbarikali/mubbarikali/assets/13020221/3c8b3144-8f30-4fb8-ada5-3e54faa8bec0)">
 - 📫 How to reach me **https://www.linkedin.com/in/mubbarikali/**
 
 <h3 align="left">Connect with me:</h3>
