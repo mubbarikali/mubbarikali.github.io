@@ -50,16 +50,15 @@
 <p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=mubbarikali&" alt="mubbarikali" /></p> -->
 
 
-<details>
+<!-- <details>
   <summary>Stats</summary>
   
   <div align="left">
-   
-[![Ali's GitHub stats](https://github-readme-stats.vercel.app/api?username=mubbarikali&show_icons=true&theme=transparent)](https://github.com/mubbarikali/github-readme-stats)    
+    [![Ali's GitHub stats](https://github-readme-stats.vercel.app/api?username=mubbarikali&show_icons=true&theme=transparent)](https://github.com/mubbarikali/github-readme-stats)    
   </div>
-</details>
+</details> -->
 
  
- <a href="http://www.github.com/mubbarikali">
+ <!-- <a href="http://www.github.com/mubbarikali">
     <img src="https://github-readme-activity-graph.cyclic.app/graph?username=mubbarikali&bg_color=1c1917&color=ffffff&line=0891b2&point=ffffff&area_color=1c1917&area=true&hide_border=true&custom_title=GitHub%20Commits%20Graph" alt="GitHub Commits Graph" />
-</a>
+</a> -->
